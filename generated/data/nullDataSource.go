@@ -49,7 +49,7 @@ const nullDataSource = `{
       }
     },
     "deprecated": true,
-    "description": "The ` + "`" + `null_data_source` + "`" + ` data source implements the standard data source lifecycle but does not\ninteract with any external APIs.\n\nHistorically, the ` + "`" + `null_data_source` + "`" + ` was typically used to construct intermediate values to re-use elsewhere in configuration. The\nsame can now be achieved using [locals](https://www.terraform.io/docs/language/values/locals.html).\n",
+    "description": "The ` + "`" + `null_data_source` + "`" + ` data source implements the standard data source lifecycle but does not\ninteract with any external APIs.\n\nHistorically, the ` + "`" + `null_data_source` + "`" + ` was typically used to construct intermediate values to re-use elsewhere in configuration. The\nsame can now be achieved using [locals](https://developer.hashicorp.com/terraform/language/values/locals) or the [terraform_data resource type](https://developer.hashicorp.com/terraform/language/resources/terraform-data) in Terraform 1.4 and later.",
     "description_kind": "plain"
   },
   "version": 0
